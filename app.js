@@ -18,17 +18,17 @@
 
 //constructor-pattern
 
-function MyProduct(name,price,color){
-    this.name=name,
-    this.price=price
-    this.color=color
-    this.productInfo=function(){
-        console.log(`Your purchase product is ${this.name} price ${this.price} and color is ${this.color}`);
-    }
-    console.log(this);
+// function MyProduct(name,price,color){
+//     this.name=name,
+//     this.price=price
+//     this.color=color
+//     this.productInfo=function(){
+//         console.log(`Your purchase product is ${this.name} price ${this.price} and color is ${this.color}`);
+//     }
+//     console.log(this);
 
-}
-const product1=new MyProduct('phone',1250,'red')
-product1.productInfo()
-const product2=new MyProduct('tv',12500,'black')
-product2.productInfo()
+// }
+// const product1=new MyProduct('phone',1250,'red')
+// product1.productInfo()
+// const product2=new MyProduct('tv',12500,'black')
+// product2.productInfo()
